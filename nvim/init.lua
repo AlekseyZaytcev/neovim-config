@@ -1,0 +1,6 @@
+require('plugins')
+require('settings')
+require('keymaps')
+require('legacy')
+require('code_formatters')
+require('lsp')
