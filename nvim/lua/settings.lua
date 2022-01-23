@@ -2,19 +2,6 @@
 vim.g.mapleader = ' '
 vim.g.ranger_command_override = 'ranger --cmd "set show_hidden=true"'
 
--- 'default'
--- 'palenight'
--- 'ocean'
--- 'lighter'
--- 'darker'
--- 'default-community'
--- 'palenight-community'
--- 'ocean-community'
--- 'lighter-community'
--- 'darker-community'
-vim.g.material_theme_style = 'default'
-vim.g.material_terminal_italics = 1
-
 -- vim.o - general settings
 vim.o.mouse = 'a'
 vim.o.clipboard = "unnamedplus"
