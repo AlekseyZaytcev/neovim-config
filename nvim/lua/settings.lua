@@ -1,10 +1,11 @@
 -- vim.g - global variables
 vim.g.mapleader = ' '
 vim.g.ranger_command_override = 'ranger --cmd "set show_hidden=true"'
+vim.g.ayucolor = 'mirage' -- options: light, mirage, dark
 
 -- vim.o - general settings
 vim.o.mouse = 'a'
-vim.o.clipboard = "unnamedplus"
+vim.o.clipboard = 'unnamedplus'
 vim.o.expandtab = true
 vim.o.shiftwidth = 2
 vim.o.softtabstop = 2
