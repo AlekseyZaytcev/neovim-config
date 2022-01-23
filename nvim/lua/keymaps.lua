@@ -2,7 +2,7 @@ local keymap = vim.api.nvim_set_keymap
 local opts = { noremap = true }
 
 -- exit
-keymap('n', '<c-q>', ':NvimTreeClose<cr>:bufdo bd<cr>:q<cr>', opts)
+keymap('n', '<c-q>', ':bufdo bd<cr>:q<cr>', opts)
 
 -- format
 keymap('n', '<c-f>', ':Format<cr>', opts)
@@ -16,7 +16,5 @@ keymap('n', '<leader>fh', [[<cmd>lua require('telescope.builtin').help_tags()<cr
 -- neogit
 keymap('n', '<leader>gs', [[<cmd>lua require('neogit').open()<cr>]], opts)
 
--- vim-tree
-keymap('n', '<leader>e', ':NvimTreeToggle<cr>', opts)
-keymap('n', '<leader>r', ':NvimTreeRefresh<cr>', opts)
-keymap('n', '<leader>n', ':NvimTreeFindFile<cr>', opts)
+-- vim-ranger
+keymap('n', '<leader>e', ':RangerCurrentFileNewTab<cr>', opts)
