@@ -1,5 +1,5 @@
 # neovim-config
-Here is neovim configuration written in lua. All configs splitted in different files:
+Here is neovim configuration written in lua. All configs split in different files:
 * code_formatters.lua
 * keymaps.lua
 * legacy.lua -- for configuration in vimscript
