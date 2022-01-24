@@ -17,4 +17,4 @@ keymap('n', '<leader>fh', [[<cmd>lua require('telescope.builtin').help_tags()<cr
 keymap('n', '<leader>gs', [[<cmd>lua require('neogit').open()<cr>]], opts)
 
 -- vim-ranger
-keymap('n', '<leader>e', ':RangerCurrentFileNewTab<cr>', opts)
+keymap('n', '<leader>e', ':RangerCurrentFile<cr>', opts)
