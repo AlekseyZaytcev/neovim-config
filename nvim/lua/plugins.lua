@@ -1,7 +1,8 @@
 return require('packer').startup(function()
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-  use 'ayu-theme/ayu-vim' 
+  use 'haishanh/night-owl.vim'
+  use 'itchyny/lightline.vim'
   use 'mhartington/formatter.nvim'
 
   use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
