@@ -4,8 +4,7 @@ return require('packer').startup(function()
   use 'haishanh/night-owl.vim'
   use 'itchyny/lightline.vim'
   use 'mhartington/formatter.nvim'
-
-  use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
+  use 'tpope/vim-fugitive'
 
   use {
     'nvim-telescope/telescope.nvim',
