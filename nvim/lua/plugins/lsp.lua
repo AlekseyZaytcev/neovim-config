@@ -38,5 +38,14 @@ return {
 			})
 		end,
 	},
-	{ "neovim/nvim-lspconfig" },
+	{
+		"neovim/nvim-lspconfig",
+		config = function()
+			local capabilities = require("cmp_nvim_lsp").default_capabilities()
+			local lspconfig = require("lspconfig")
+
+			-- TODO: Setup for each lsp server you've enabled.
+			lspconfig["lua_ls"].setup({ capabilities = capabilities })
+		end,
+	},
 }

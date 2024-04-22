@@ -11,7 +11,9 @@ Copy `nvim` folder to `~/.config/` and run neovim.
     Just copy all `otf` fonts into `~/.local/share/fonts/otf/YourFontName/....` and run `fc-cache`.
     You can check if font installed via command `fc-list | grep -i yourfontname`
 
+- Install Golang, Rust
+
 - Arch linux
 ```bash
-sudo pacman -Syu gcc-libs tar curl git ripgrep fd unzip gzip luarocks
+sudo pacman -Syu gcc-libs tar curl git ripgrep fd unzip gzip luarocks wl-clipboard # wl-clipboard for Wayland
 ```
