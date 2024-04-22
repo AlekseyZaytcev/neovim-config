@@ -19,3 +19,7 @@ Copy `nvim` folder to `~/.config/` and start neovim.
     ```bash
     sudo pacman -Syu gcc-libs tar curl git ripgrep fd unzip gzip luarocks wl-clipboard # wl-clipboard for Wayland
     ```
+
+### Tips
+
+- If you use `vale` linter for markdown files, it fails with status code 2 without `.vale.ini` configuration file.
