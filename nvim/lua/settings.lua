@@ -8,6 +8,9 @@ vim.opt.smartcase = true
 vim.opt.signcolumn = "yes"
 vim.opt.cursorline = true
 vim.opt.hlsearch = true
+vim.opt.langmap =
+	"ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz"
+
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
 vim.api.nvim_create_autocmd("TextYankPost", {
