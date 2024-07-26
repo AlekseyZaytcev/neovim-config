@@ -26,6 +26,16 @@ return {
 					lua = {
 						require("formatter.filetypes.lua").stylua,
 					},
+					javascript = {
+						require("formatter.filetypes.javascript").prettier,
+					},
+					json = {
+						require("formatter.filetypes.json").jq,
+					},
+
+					css = {
+						require("formatter.filetypes.css").prettier,
+					},
 					["*"] = {
 						require("formatter.filetypes.any").remove_trailing_whitespace,
 					},
