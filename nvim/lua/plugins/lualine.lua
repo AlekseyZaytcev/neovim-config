@@ -4,7 +4,9 @@ return {
 	config = function()
 		require("lualine").setup({
 			options = {
-				theme = "tokyonight",
+				-- theme = "tokyonight",
+				-- theme = "gruvbox_dark",
+				theme = "monokai-pro",
 			},
 		})
 	end,
