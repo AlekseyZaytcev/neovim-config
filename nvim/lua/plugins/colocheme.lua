@@ -1,8 +1,10 @@
 return {
 	{
-		"tanvirtin/monokai.nvim",
+		"catppuccin/nvim",
+		name = "catppuccin",
+		priority = 1000,
 		config = function()
-			vim.cmd.colorscheme("monokai")
+			vim.cmd.colorscheme("catppuccin")
 		end
 	}
 }
